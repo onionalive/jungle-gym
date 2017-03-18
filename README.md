@@ -18,7 +18,7 @@ You're trying to tell me the human mind can not possibly retain the incredulous 
 
 ![Mind Blown](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
 
-Dats weird, I feel like right now the [University|Work|Societal] overlords expects me to be punching on with at least 10 languages at the top of my game...
+Dats weird, I feel like right now the [University|Work|Societal] overlords expect me to be punching on with at least 10 languages at the top of my game...
 
 **¯\\\_(ツ)\_/¯**
 
