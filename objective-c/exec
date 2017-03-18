@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Set the directory that contains the files
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+clang -fobjc-arc -framework Foundation $DIR/$1.m -o $DIR/$1
+$DIR/$1

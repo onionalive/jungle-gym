@@ -1,0 +1,3 @@
+#!/bin/bash
+yarn add react
+yarn add -dev casperjs chai enzyme mocha phantomjs-prebuilt sinon

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Set the directory that contains the files
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+g++ $DIR/$1.cpp -o $DIR/$1
+$DIR/$1
