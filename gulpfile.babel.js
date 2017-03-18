@@ -207,7 +207,8 @@ gulp.task( "watch", function() {
 
 		// for post Java compilation
 		var name = fileName.split('.')[0];
-		spawnProc('./java/exec', [name], `Java compile ${fileName} and Java run ${name}`);
+		gutil.log(chalk.green('Java compile ${fileName} and Java run ${name}'));
+		spawnProc('./java/exec', [name], "");
 	});
 
 	// 

@@ -58,7 +58,7 @@ The idea is to be able to have my terminal running a watch command and then irre
 
 Watch me do just that.
 
-![Jungle Gym file switching](http://www.giphy.com/gifs/l0IxZluolSREusOFa)
+![Jungle Gym file switching](https://media.giphy.com/media/xUPGcDT9FmflV0SWpq/giphy.gif)
 
 ### How does it work?
 
