@@ -56,6 +56,10 @@ _*Jungle Gym*_ is my little playground of playgrounds that uses `Gulp` to watch 
 
 The idea is to be able to have my terminal running a watch command and then irrespective of what language and or folder I am practising, it will execture and log out the results to the console.
 
+Watch me do just that.
+
+![Jungle Gym file switching](http://www.giphy.com/gifs/l0IxZluolSREusOFa)
+
 ### How does it work?
 
 A combination of things come together to make this work.
@@ -70,7 +74,9 @@ I'll probably move everything across to script files in coming days/weeks as thi
 
 ## Getting Started
 
-Download/clone the project and run `npm install` (or better yet, `yarn install`) the deps. 
+Download/clone the project, change into the root of the folder and run `npm install` (or better yet, `yarn install`) the deps. 
+
+If you want the extra dependencies for other JS folders like `rxjs` and `js-testing`, check **Install Scripts** below.
 
 Once installed, simply run `gulp watch` to start watching all the directories.
 
