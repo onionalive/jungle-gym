@@ -8,5 +8,5 @@ class Playground
 	end
 end
 
-playground = Playground.new("Hello from Ruby, Battlefield!");
+playground = Playground.new("Hello from Ruby, Jungle Gym!");
 playground.greetings()

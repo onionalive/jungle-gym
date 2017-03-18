@@ -12,4 +12,4 @@ class Greeter {
 
 const greeter = new Greeter();
 
-greeter.greet('Hello from Typescript, Battlefield!');
+greeter.greet('Hello from Typescript, Jungle Gym!');

@@ -1,5 +1,5 @@
 #!/bin/bash
-
 # Set the directory that contains the files
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-node $DIR/index.js
+go run $DIR/$1.go
+

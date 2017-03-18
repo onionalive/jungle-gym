@@ -4,7 +4,7 @@ class Example extends Component {
 	render() {
 		return (
 			<div className="header">
-				<a href="#">a tag</a>
+				<a href="#">Hello!</a>
 			</div>
 		);
 	}

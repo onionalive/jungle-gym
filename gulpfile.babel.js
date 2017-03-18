@@ -88,6 +88,25 @@ gulp.task( "watch", function() {
 	});
 
 	//
+	// Watch Go files 
+	// 
+
+	gulp.watch('**/*.go').on('change', function( file ) {
+		var list = file.path.split('/');
+		var fileName = list[list.length-1];
+
+		var tempArr = fileName.split('.');
+		var fileNamePrefix = tempArr[0];
+
+		gutil.log(chalk.yellow(fileName + " changed"));
+
+		var command = './go/exec';
+		var out = 'Running Go Program:';
+
+		spawnProc(command, fileNamePrefix, out);
+	});
+
+	//
 	// Watch Objective-C files
 	// 
 
@@ -173,7 +192,7 @@ gulp.task( "watch", function() {
 		var rubyPath = list.slice(0, -1).join('/');
 		var rubyIn = `${rubyPath}/${fileName}`;
 
-		spawnProc('ruby', [rubyIn], `Run php ${rubyIn}`);
+		spawnProc('ruby', [rubyIn], `Run rb ${rubyIn}`);
 	});
 
 	//

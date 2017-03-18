@@ -5,7 +5,7 @@
 int main (int argc, const char * argv[])
 {
    @autoreleasepool {
-      NSLog (@"Hello from Objective-C, Battlefield!");
+      NSLog (@"Hello from Objective-C, Jungle Gym!");
    }
    return 0;
 }

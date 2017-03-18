@@ -1,4 +1,12 @@
-import Example from './self';
+class Example {
+	constructor() {
+		this.hello = "Hello from Babel, Jungle Gym!";
+	}
 
-const variable = new Example();
-variable.init();
+	hi() {
+		console.log(this.hello);
+	}
+}
+
+const example = new Example();
+example.hi();

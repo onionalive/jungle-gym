@@ -153,6 +153,7 @@ Pretty light right now - will get back to it later.
 	- [ ] Update scripts
 	- [ ] Write makefiles
 	- [ ] Write install scripts 
+	- [ ] Write install everything script 
 - [ ] Jungle Gyms 
 	- [ ] Python2 
 	- [ ] R 

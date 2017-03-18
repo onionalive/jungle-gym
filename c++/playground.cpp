@@ -2,5 +2,5 @@
 
 int main()
 {
-  std::cout << "Hello from C++, Battlefield!";
+  std::cout << "Hello from C++, Jungle Gym!";
 }

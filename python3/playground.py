@@ -5,5 +5,5 @@ class Example(object):
 	def helloWorld(self):
 		print(self.log)
 
-example = Example("Hello from Python, Battlefield!")
+example = Example("Hello from Python, Jungle Gym!")
 example.helloWorld()

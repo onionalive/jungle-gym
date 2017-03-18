@@ -11,4 +11,4 @@ var Greeter = (function () {
     return Greeter;
 }());
 var greeter = new Greeter();
-greeter.greet('Hello from Typescript, Battlefield!');
+greeter.greet('Hello from Typescript, Jungle Gym!');

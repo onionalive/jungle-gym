@@ -12,5 +12,5 @@ class Example {
 	}
 }
 
-let example = Example(name: "Hello from Swift, Battlefield!")
+let example = Example(name: "Hello from Swift, Jungle Gym!")
 example.helloFriends()
